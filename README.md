@@ -17,4 +17,11 @@ Pytorch reimplement of the paper "A Novel Cascade Binary Tagging Framework for R
    p.s. I use the chinese-bert-wwm here. You can also choose other pre-trained models like this
    
    p.p.s. the bert cache usually will be /home/your user name/.cache/torch/transformers
-2. 
+2. Train the model
+   ```
+   python train.py
+   ```
+3. Test the model
+   ```
+   python test.py
+   ```
