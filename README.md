@@ -14,4 +14,7 @@ Pytorch reimplement of the paper "A Novel Cascade Binary Tagging Framework for R
    from transformers import *
    model = BertModel.from_pretrained("hfl/chinese-bert-wwm")
    ```
-   p.s. I choose to use the chinese-bert-wwm here. You can also choose other pre-trained models like this.
+   p.s. I use the chinese-bert-wwm here. You can also choose other pre-trained models like this
+   
+   p.p.s. the bert cache usually will be /home/your user name/.cache/torch/transformers
+2. 
