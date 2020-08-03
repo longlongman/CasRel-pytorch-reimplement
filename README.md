@@ -27,4 +27,5 @@ Pytorch reimplement of the paper "A Novel Cascade Binary Tagging Framework for R
    ```
 # Results
 [CasRel-keras](https://github.com/weizhepei/CasRel): test F1 45.59
+
 CasRel-pytorch: test F1 47.59
