@@ -7,10 +7,7 @@ from utils import get_tokenizer
 import numpy as np
 from random import choice
 
-tokenizer = get_tokenizer('/home/data_ti5_d/longsy/CasRel-reimplement/pretrained_model/vocab/chinese_www_pytorch/vocab.txt')
-
-# bert_tokenizer = BertTokenizer.from_pretrained(
-#     '/home/user_data55/longsy/chid.gnn/data/pretrained/chinese_wwm_pytorch/vocab.txt')
+tokenizer = get_tokenizer('the path of your vocab.txt')
 
 
 BERT_MAX_LEN = 512
