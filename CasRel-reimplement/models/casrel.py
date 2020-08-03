@@ -9,7 +9,7 @@ class Casrel(nn.Module):
         self.config = config
         self.bert_dim = 768
         self.bert_encoder = BertModel.from_pretrained("hfl/chinese-bert-wwm",
-                                                      cache_dir='/home/data_ti5_d/longsy/CasRel-reimplement/pretrained_model/models/transformers')
+                                                      cache_dir='the path of your pre-train bert cache')
         self.sub_heads_linear = nn.Linear(self.bert_dim, 1)
         self.sub_tails_linear = nn.Linear(self.bert_dim, 1)
         self.obj_heads_linear = nn.Linear(self.bert_dim, self.config.rel_num)
